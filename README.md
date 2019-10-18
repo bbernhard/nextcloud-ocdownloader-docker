@@ -5,7 +5,7 @@ and enables the ocDownloader app.
 
 # HOWTO
 
-* clone repository with ...
+* clone repository with `git clone https://github.com/bbernhard/nextcloud-ocdownloader-docker.git`
 * cd `nextcloud-ocdownloader-docker`
 * build docker image with `docker build -t nextcloud-ocdownloader-docker .`
 * start docker container with `docker run -p 8080:80 -it nextcloud-ocdownloader-apache`
