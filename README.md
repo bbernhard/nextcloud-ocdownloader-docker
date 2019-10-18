@@ -1,6 +1,6 @@
 # nextcloud + ocDownloader Dockerfile
 
-This Dockerfile pulls the latest nextcloud docker image, installs all the necessary dependencies for ocDownloader and automatically installs
+This Dockerfile pulls the latest nextcloud docker image, installs all the necessary dependencies for [ocDownloader](https://github.com/e-alfred/ocdownloader) and automatically installs
 and enables the ocDownloader app. 
 
 # HOWTO
