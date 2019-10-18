@@ -3,4 +3,13 @@
 This Dockerfile pulls the latest nextcloud docker image, installs all the necessary dependencies for ocDownloader and automatically installs
 and enables the ocDownloader app. 
 
+# HOWTO
+
+* clone repository with ...
+* cd `nextcloud-ocdownloader-docker`
+* build docker image with `docker build -t nextcloud-ocdownloader-docker .`
+* start docker container with `docker run -p 8080:80 -it nextcloud-ocdownloader-apache`
+* open your favorite webbrowser and navigate to `http://127.0.0.1:8080` to connect to your nextcloud docker instance
+* if you go to the apps tab on your nextcloud instance, you should see that `ocDownloader` is already installed and enabled
+
 **CAUTION: THIS DOCKERFILE WAS MAINLY CREATED FOR TESTING PURPOSES. IF YOU WANT TO USE THE DOCKERFILE IN PRODUCTION, MAKE SURE TO CHANGE THE HARDCODED NEXTCLOUD ADMIN PASSWORD IN THE DOCKERFILE** 
